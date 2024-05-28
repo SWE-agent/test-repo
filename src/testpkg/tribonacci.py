@@ -1,6 +1,3 @@
-from __future__ import annotations
-
-
 def tribonacci(n: int) -> int:
     """Calculates the n-th tribonacci number.
 
