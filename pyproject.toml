@@ -6,9 +6,8 @@
 
 # Choosing a build backend:
 [build-system]
-requires = ["setuptools"]  # REQUIRED if [build-system] table is used
-build-backend = "setuptools.build_meta"  # If not defined, then legacy behavior can happen.
-
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [project]
 name = "testpkg"
