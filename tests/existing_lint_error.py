@@ -10,8 +10,18 @@ def f821():
 
 
 def division(a: float, b: float) -> float
+    asdf
     return a/b
 
+
+
+def another_func():
+    asdf
+
+def another_func():
+    asdf
+    asdf
+    asdf
 
 if __name__ == "__main__":
     print(division(123, 15))
